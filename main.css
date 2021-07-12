@@ -1,0 +1,122 @@
+/* font */
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+/* links */
+a {text-decoration: none;}
+/* #profile a, #education a { */
+#profile a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* hr lines */
+hr {
+    border-top: 1px solid #bbb;
+    margin: 20px 0;
+}
+#projects .container:last-child hr {display: none;}
+
+/* buttons */
+.more {
+    text-align: right;
+    /* cursor: pointer; */
+}
+
+/* color */
+body {background-color: #F1F1F1;}
+.text-color {color:#369FB0;}
+.bg-color {
+  background-color:#369FB0 !important;
+  color: white;
+}
+.text-grey {color: grey}
+
+/* font size */
+.text-large {font-size: large;}
+h2 i {font-size: xx-large;}
+
+/* spacing */
+#body {
+    margin-top: 16px;
+    /* max-width: 1400px; */
+}
+#body i {margin-right: 16px;}
+#projects {margin-bottom: 16px;}
+/* #name {margin: 20px 0;} */
+h2, h6 {margin: 10px 0;}
+.profile h4 {margin-bottom: 14px;}
+h2 {padding: 16px;}
+#id h2 {padding-bottom: 0;}
+#id p {
+  padding-left: 16px;
+  font-size: larger;
+}
+#summary {
+    padding-left: 2em;
+}
+
+/* lists */
+.list-display li {
+  margin-bottom:.4rem;
+  font-size:1.1rem;
+}
+ul {
+  padding-left:1.5rem;
+}
+ul li {
+  list-style-type:none;
+  padding-left:1rem;
+}
+ul li:before {    
+  font-family: 'FontAwesome';
+  content: "\f00c";
+  margin:0 10px 0 -28px;
+  color: #369FB0;
+}
+
+/* icons */
+#projects .fab {
+    font-size: 1.2em;
+}
+.fa-php, .fa-java, .fa-react , .fa-linux{
+    font-weight: bold;
+}
+.fa-campground {transform: rotate(-90deg);}
+.techs {
+    display: inline-block;
+    margin: 0;
+    font-size: smaller;
+}
+h6.techs {font-weight: bold;}
+.techs i {
+    margin-left: .75em;
+    margin-right: .25em !important;
+}
+
+/* modal */
+.carousel-caption {
+    background-image: radial-gradient(rgba(170, 223, 230, .7), rgba(170, 223, 230, 0));
+    border-radius: 50%;
+    box-shadow: 0 0 20px 25px rgba(170, 223, 230, .2);
+}
+.recipe .carousel-caption {
+    background-image: radial-gradient(rgba(255, 192, 203, .7), rgba(255, 192, 203, 0));
+    border-radius: 50%;
+    box-shadow: 0 0 20px 25px rgba(255, 192, 203, .2);
+}
+
+/* footer */
+footer {
+    padding: .15px 16px;
+    margin-top: 16px;
+    text-align: center;
+}
+footer p {
+  margin: 15px auto;
+}
+footer a:hover {
+  color: inherit;
+  opacity: .6;
+}
+footer a {color: inherit;}
+#footer-links {font-size: smaller;}
